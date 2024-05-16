@@ -1,0 +1,248 @@
+body {
+    background-color: #F4F4E3;
+    margin: 0% auto;
+}
+
+h1 {
+    color: #a8151a;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 120px;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    margin-bottom: 0%;
+}
+
+.cmd {
+    color: #a8151a;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+ 
+
+
+a {
+    text-decoration: none;
+    position: static;
+    color: #a8151a;
+    font-size: 20px;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+ul {
+    list-style-type: none;
+    justify-content: flex-start;
+    margin-top: 2em;
+    margin-left: 4em;
+    font-size: 1em;
+    flex-wrap: wrap;
+}
+
+ul li{
+    display: inline-flex;
+}
+
+ul li a{  
+    padding: 0.1em 1em;
+    animation: fadeIn 3.5s;
+}
+
+ul li a:hover{
+    border-bottom: 2px solid #a8151a ;
+    transform: scale(1.1);
+    transition: 500ms linear;
+}
+
+.headercontact {
+    color: #a8151a;
+    margin-top: 1em;
+    text-align: end;
+    margin-right: 2em;
+}
+
+.contactp {
+    color: #a8151a;
+    text-align: end;
+    margin-right: 8.5em;
+    font-size: 30px;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    padding-top: 3em;
+}
+
+.headerabout {
+    color: #a8151a;
+    text-align: start;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+
+.aboutfoto {
+    width: 400px;
+    height: 700px;
+    float: right;
+    margin-top: 5em;
+    margin-bottom: 7em;
+}
+
+.aboutp  {
+    color: #a8151a;
+    text-align: start;
+    margin-left: 14em;
+    font-size: 20px;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 24em;
+}
+
+
+
+.headerwork {
+    color: #a8151a;
+    text-align: start;
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+    
+}
+
+.workplaatjes {
+    margin-left: 8em;
+    margin-top: 3em;
+    width: 600px;
+    height: 150px;
+    border-radius: 1em;
+}
+
+.workplaatjes:hover {
+    transform: scale(1.1);
+    transition: 500ms linear;
+    border-radius: 1em;
+}
+
+img {
+    width: 350px;
+    height: 550px;
+}
+
+.hhkp {
+    color: #a8151a;
+    text-align: start;
+    margin-left: 14em;
+    font-size: 20px;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 28em;
+}
+
+.moodboard {
+    width: 1650px;
+    height: 2500px;
+}
+
+.moodboardmagazine {
+    width: 1650px;
+    height: 4000px;
+}
+
+.moodboardeigenwerk {
+    width: 1650px;
+    height: 4500px;
+}
+
+.moodboardvormgeving {
+    width: 1700px;
+    height: 4300px;
+}
+
+.moodboardindividueel {
+    width: 1700px;
+    height: 4400px;
+}
+
+.moodboardinfor {
+    width: 1700px;
+    height: 3300px;
+}
+
+/* Vanaf hier is met chatGTP gedaan: OpenAI. (2024). ChatGPT (15 mei version) [Large language model]*/
+.slideshow-container {
+    position: relative;
+    max-width: 350px;
+    margin: auto;
+   
+    margin-top: 2em;
+    margin-bottom: 4em;
+  }
+
+  .slideshow-container.left {
+    margin-left: 0; 
+    margin-right: auto;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 16px;
+    color: #a8151a;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: #F4F4E3;
+  }
+  
+  
